@@ -1,8 +1,10 @@
-(function(root, unicodeStringUtils) {
-  if (typeof module === 'object' && module.exports) {
-    module.exports = unicodeStringUtils;
+(function(root, factory) {
+  if (typeof define === 'function' && define.amd) {
+    define('unicode-string-utils', factory);
+  } else if (typeof module === 'object' && module.exports) {
+    module.exports = factory();
   } else {
-    root.unicodeStringUtils = unicodeStringUtils;
+    root.unicodeStringUtils = factory();
   }
 }(this, function() {
   'use strict';
@@ -53,4 +55,4 @@
   };
 
   return exports;
-}()))
+}));

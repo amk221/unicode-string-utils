@@ -12,7 +12,7 @@ describe('symbols', function() {
   it('returns an array of symbols', function() {
     assert.deepEqual(
       symbols(string),
-      ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', ' ', '🌍', '🌍']
+      ['H','e','l','l','o',' ','W','o','r','l','d',' ','🌍','🌍']
     )
   });
 });

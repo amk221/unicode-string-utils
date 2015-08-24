@@ -8,6 +8,7 @@
   ],
   "description": "Fixes for JavaScript's Unicode problem",
   "moduleType": [
+    "amd",
     "globals",
     "node"
   ],
