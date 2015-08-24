@@ -9,8 +9,6 @@
 }(this, function() {
   'use strict';
 
-  var fromCharCode = String.fromCharCode;
-
   var symbols = function(string) {
     var symbols = [];
     var index   = 0;
