@@ -48,11 +48,9 @@
     return symbols(string).slice(start, end).join('');
   };
 
-  var exports = {
+  return {
     symbols: symbols,
     length: length,
     substring: substring
   };
-
-  return exports;
 }));
