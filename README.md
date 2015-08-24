@@ -18,7 +18,9 @@ JavaScript has a Unicode problem, see here for more information:
     
     unicodeStringUtils.symbols('Hello 🌍'); // ['H','e','l','l','o',' ','🌍']
     
-    unicodeStringUtils.substring('Boom 💣 Pow 💥', 5, 6); // 💣
+    unicodeStringUtils.slice('Boom 💣 Pow 💥', -12, 6); // Boom 💣
+    
+    unicodeStringUtils.substring('Boom 💣 Pow 💥', 7, 12); // Pow 💥
     
 ## Tests
 

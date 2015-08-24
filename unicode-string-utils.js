@@ -39,16 +39,27 @@
     return symbols(string).length;
   };
 
-  var substring = function(string, start, end) {
-    if (start == null) start = 0;
-    if (end == null) end = length(string);
-
+  var slice = function(string, start, end) {
     return symbols(string).slice(start, end).join('');
+  };
+
+  var substring = function(string, start, end) {
+    var args = [start, end];
+    args.forEach(function(arg, i) {
+      if (arg != null) {
+        arg = parseInt(arg, 10);
+        if (arg < 0 || isNaN(arg)) args[i] = 0;
+      }
+    });
+    if (args[0] > args[1]) args.reverse();
+    args.unshift(string);
+    return slice.apply(null, args);
   };
 
   return {
     symbols: symbols,
     length: length,
+    slice: slice,
     substring: substring
   };
 }));
