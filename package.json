@@ -1,6 +1,6 @@
 {
   "name": "unicode-string-utils",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Fixes for JavaScript's Unicode problem",
   "main": "unicode-string-utils.js",
   "directories": {
