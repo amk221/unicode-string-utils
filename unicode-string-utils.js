@@ -41,7 +41,7 @@
 
   var substring = function(string, start, end) {
     if (start == null) start = 0;
-    if (end == null) end = string.length;
+    if (end == null) end = length(string);
 
     return symbols(string).slice(start, end).join('');
   };
