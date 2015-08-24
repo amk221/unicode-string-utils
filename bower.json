@@ -1,0 +1,29 @@
+{
+  "name": "unicode-string-utils",
+  "main": "unicode-string-utils.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/amk221/unicode-string-utils",
+  "authors": [
+    "Andrew Kirwin <github@andrewkirwin.me>"
+  ],
+  "description": "Fixes for JavaScript's Unicode problem",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "unicode",
+    "utf8",
+    "emoji",
+    "emoticon",
+    "substring"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
