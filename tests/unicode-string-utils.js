@@ -19,6 +19,7 @@ describe('symbols', function() {
 
 describe('length', function() {
   it('counts surrogate pairs as one symbol', function() {
+    assert.strictEqual(string.length, 16);
     assert.strictEqual(length(string), 14);
   });
 });

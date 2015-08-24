@@ -27,4 +27,4 @@ JavaScript has a Unicode problem, see here for more information:
     
 ## Please note
 
-As mentioned in the above blog post, in ES6 you probably won't need these utils.
+As mentioned in the above blog post, with ES6 you probably won't need these utils.
