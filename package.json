@@ -20,7 +20,7 @@
     "emoticon",
     "substring"
   ],
-  "author": "Andrew Kirwin <github@andrewkirwin.me>",
+  "author": "Andrew Kirwin",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/amk221/unicode-string-utils/issues"

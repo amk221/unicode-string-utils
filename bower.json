@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "homepage": "https://github.com/amk221/unicode-string-utils",
   "authors": [
-    "Andrew Kirwin <github@andrewkirwin.me>"
+    "Andrew Kirwin"
   ],
   "description": "Fixes for JavaScript's Unicode problem",
   "moduleType": [
