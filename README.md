@@ -1,4 +1,4 @@
-# unicode-string-utils
+# unicode-string-utils [DEPRECATED]
 
 ## Overview
 
